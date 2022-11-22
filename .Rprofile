@@ -20,3 +20,6 @@ ggenv$gg <- list(
   aes = econDV2::ggaes
 )
 attach(ggenv)
+
+
+Sys.setenv(CLIPR_ALLOW=TRUE)
